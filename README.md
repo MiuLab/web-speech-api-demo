@@ -1,2 +1,8 @@
 # web-speech-api-demo
-Web Speech API demo
+## usage
+```
+# install the dependencies
+$ npm install
+# run the server on localhost:3000
+$ node server.js
+```
