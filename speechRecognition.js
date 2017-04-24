@@ -48,9 +48,8 @@ recognition.onend = () => {
 /**
  * other functions
  */
-
 function updateResult(result) {
-  document.getElementById('recognitionResult').innerHTML = result;
+  document.querySelector('#recognitionResult').innerHTML = result;
 }
 
 function start() {

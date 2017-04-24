@@ -5,8 +5,14 @@
 	<title>Web speech api demo</title>
 </head>
 <body>
-	<button onclick="start()">start recognition</button>
-	<span id="recognitionResult"></span>
+	<div>
+		<button onclick="start()">start recognition</button>
+		<span id="recognitionResult">result</span>
+	</div>
+	<div>
+		<input type="input" name="text" id="synthesisText">
+		<button onclick="speak()">speak</button>
+	</div>
 </body>
 <script src="./speechRecognition.js"></script>
 <script src="./speechSynthesizer.js"></script>
